@@ -1,0 +1,73 @@
+@media screen and (max-width: 1024px) {
+  .section1 {
+    width: 100%;
+    padding: 20px;
+    height: inherit;
+    padding-bottom: 50px;
+  }
+  .input-div3,
+  .input-div4 {
+    width: 100%;
+  }
+  .all-input {
+    flex-direction: column;
+  }
+  .mother-div {
+    width: 100%;
+    height: auto;
+    display: block;
+    grid-template-columns: unset;
+  }
+  .child-card {
+    margin: 20px 10px;
+    height: 220px;
+  }
+  #burger {
+    display: unset;
+    position: relative;
+    top: 20px;
+    left: 30px;
+  }
+  .nav-wrapperr {
+    display: none;
+  }
+  .display,
+  .all-divs,
+  .section3-div1 {
+    flex-direction: column;
+  }
+  .section3 {
+    width: 100%;
+    height: auto;
+  }
+  .newsletter {
+    width: auto;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-wrapper {
+    height: 300px;
+  }
+  .text1 {
+    position: static;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .cl {
+    padding-top: 70px;
+  }
+  .mail-input-div {
+    width: auto;
+  }
+
+  .p-tetx {
+    width: auto;
+  }
+  .footer1 {
+    border-radius: 0;
+  }
+}
