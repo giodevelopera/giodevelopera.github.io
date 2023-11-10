@@ -46,6 +46,12 @@
   }
 }
 
+@media screen and (max-width: 1270px) {
+  .mail-input-div {
+    width: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nav-wrapper {
     height: 300px;

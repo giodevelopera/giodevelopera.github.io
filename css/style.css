@@ -301,7 +301,6 @@ html {
 }
 
 .mother-div {
-  width: 1440px;
   height: 860px;
   display: grid;
   gap: 40px;
@@ -561,7 +560,7 @@ html {
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  gap: 60px;
+  gap: 10px;
   margin-top: 80px;
 }
 
