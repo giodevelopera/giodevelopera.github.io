@@ -13,3 +13,12 @@ burger_icon.addEventListener("click", () => {
 menu_close.addEventListener("click", () => {
   burger_nav.classList.remove("close");
 });
+
+function handleBtnPress() {
+  alert("Welcome")
+}
+
+
+function handleBtnPress1() {
+  alert("The reservation was made successfully")
+}

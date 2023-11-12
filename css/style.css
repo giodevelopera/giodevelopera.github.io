@@ -532,6 +532,7 @@ html {
 
 .child-card1 {
   padding: 20px;
+  width: 100%;
   border-radius: 18px;
   background-color: #fff;
   display: flex;
@@ -539,7 +540,6 @@ html {
   align-items: center;
   flex-direction: column;
   box-shadow: 0px 0px 20px lightgray;
-  width: 400px;
   gap: 50px;
 }
 
@@ -742,4 +742,27 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.ul-main :hover {
+  color: #65aef2;
+}
+.links a :hover {
+  transition-property: 100ms;
+  width: 50px;
+  height: 50px;
+  transition: 0.1s;
+}
+.littel {
+  width: 35px;
+  height: 35px;
+  border-radius: 12px;
+}
+.insta {
+  width: 35px;
+  height: 35px;
+}
+.facebook {
+  width: 35px;
+  height: 35px;
 }
